@@ -5,7 +5,7 @@ class LinkedList {
 	private _tail: Node | null;
 	private _length: number;
 
-	constructor(private value: any) {
+	constructor(value: any) {
 		this._head = new Node(value);
 		this._tail = this._head;
 		this._length = 1;

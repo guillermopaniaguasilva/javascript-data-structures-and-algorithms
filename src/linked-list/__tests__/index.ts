@@ -50,7 +50,7 @@ describe('LinkedList', () => {
 			expect(list.length).toBe(initialLength + 1);
 		});
 
-		test('it should return instance of LinkedList', () => {
+		test('it should return this instance of LinkedList', () => {
 			expect(list.push(2)).toBe(list);
 		});
 	});
